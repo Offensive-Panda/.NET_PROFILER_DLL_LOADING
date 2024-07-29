@@ -1,0 +1,10 @@
+﻿  NET_PROFILER_HIJACKING.cpp
+C:\Users\DARKN3T\source\repos\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING.cpp(70,103): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\DARKN3T\source\repos\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING.cpp(76,114): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\DARKN3T\source\repos\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING.cpp(77,128): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\DARKN3T\source\repos\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING\NET_PROFILER_HIJACKING.cpp(78,109): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  NET_PROFILER_HIJACKING.vcxproj -> C:\Users\DARKN3T\source\repos\NET_PROFILER_HIJACKING\x64\Release\NET_PROFILER_HIJACKING.exe
