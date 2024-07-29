@@ -9,6 +9,7 @@ CLR uses the COR_PROFILER_PATH environment variable to find the DLL, If this pat
 1) Place compiled DLL (led.dll) in "C:\Users\Public" folder.
 2) Build project using Visual Studio and execute compiled binary.
 3) You will get admin shell, DLL is executing command to open cmd.exe.
+4) Tested on Windows 11 pro, 23H2
 
 # Disclaimer
 Only for educational Purposes.
