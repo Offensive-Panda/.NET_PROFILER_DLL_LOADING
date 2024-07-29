@@ -2,19 +2,20 @@
 #include <Windows.h>
 #include <stdlib.h>
 
-BOOL APIENTRY DllMain( HMODULE hModule,
-                       DWORD  ul_reason_for_call,
-                       LPVOID lpReserved
-                     )
+BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved)
 {
-    switch (ul_reason_for_call)
+    char run[] = "cmd.exe";
+
+    switch (fdwReason)
     {
     case DLL_PROCESS_ATTACH:
-        // Create a new process to run cmd.exe
-        system("cmd.exe");
+        WinExec(run, SW_SHOWNORMAL);
+        ExitProcess(0);
         break;
     case DLL_THREAD_ATTACH:
+        break;
     case DLL_THREAD_DETACH:
+        break;
     case DLL_PROCESS_DETACH:
         break;
     }
