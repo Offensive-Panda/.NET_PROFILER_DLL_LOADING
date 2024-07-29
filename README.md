@@ -5,6 +5,12 @@ CLR uses the COR_PROFILER_PATH environment variable to find the DLL, If this pat
 * COR_PROFILER={A2D4B6C7-1234-5678-9ABC-DEF012345678}
 * COR_PROFILER_PATH=C:\Users\Public\led.dll
 
+
+
+https://github.com/user-attachments/assets/c61670fb-c1ef-46db-a1de-557b8104172c
+
+
+
 # Usage 
 1) Place compiled DLL (led.dll) in "C:\Users\Public" folder.
 2) Build project using Visual Studio and execute compiled binary.
