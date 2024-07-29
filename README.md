@@ -1,0 +1,1 @@
+.NET profiler DLL loading can be abused to make a legit .NET application load a malicious DLL using environment variables. This exploit is loading a malicious DLL using Task Scheduler (MMC) to bypass UAC and getting admin privileges.
